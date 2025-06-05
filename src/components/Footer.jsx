@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <a href='https://wa.me/918764673892' target="_blank"
+    <a href='https://wa.me/8873317956' target="_blank"
         rel="noopener noreferrer">
     <footer className="bg-gray-900 text-gray-300 py-10 mt-10" id='footer'>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
