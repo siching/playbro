@@ -6,7 +6,7 @@ const Banner = () => {
       <a href='https://wa.me/918764673892' target="_blank"
         rel="noopener noreferrer">
         <img
-          src="/banner.png"
+          src="/banner.jpg"
           alt="Banner"
           className="w-full h-full object-cover"
         />
