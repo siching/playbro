@@ -14,9 +14,9 @@ function App() {
       {/* Add padding-top to offset fixed navbar height (h-16 = mt-16) */}
       <div className="mt-16">
         <Banner />
-        <TwoColumnSection />
+        {/* <TwoColumnSection />
         <InfoSection />
-        <FAQAccordion />
+        <FAQAccordion /> */}
         {/* Footer should be at the bottom of the page */}
         <Footer />
       </div>

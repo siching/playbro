@@ -3,6 +3,8 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const TwoColumnSection = () => {
   return (
+    <a href='https://wa.me/918764673892' target="_blank"
+        rel="noopener noreferrer">
     <div
       className="w-full px-4 py-10 md:py-16 bg-[radial-gradient(circle,_#EEAECA_0%,_#94BBE9_100%)] shadow-xl"
       id="howToPlay"
@@ -41,6 +43,7 @@ const TwoColumnSection = () => {
         </div>
       </div>
     </div>
+    </a>
   );
 };
 

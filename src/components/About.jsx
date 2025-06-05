@@ -7,6 +7,8 @@ import { FaCrown } from "react-icons/fa6";
 
 const InfoSection = () => {
   return (
+    <a href='https://wa.me/918764673892' target="_blank"
+        rel="noopener noreferrer">
     <div className="w-screen py-10 flex flex-col gap-8 mt-4" id="about">
       {/* ✅ 1st Component: Text Block */}
       <div className="bg-white shadow-xl rounded-xl px-6 md:p-10 text-left mx-auto w-screen">
@@ -59,6 +61,7 @@ const InfoSection = () => {
         </div>
       </div>
     </div>
+    </a>
   );
 };
 

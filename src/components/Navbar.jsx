@@ -6,14 +6,12 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: "Home", href: "#banner" },
-    { name: "About", href: "#about" },
-    { name: "How to play", href: "#howToPlay" },
-    { name: "Faq", href: "#faq" },
     { name: "Play", href:"https://wa.me/918764673892"},
   ];
 
   return (
+    <a href='https://wa.me/918764673892' target="_blank"
+        rel="noopener noreferrer">
     <nav className="bg-gray-900 w-full fixed top-0 left-0 z-50 shadow-md">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         {/* Navbar content */}
@@ -83,6 +81,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+    </a>
   );
 };
 

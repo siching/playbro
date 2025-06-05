@@ -9,6 +9,9 @@ const FAQAccordion = () => {
   };
 
   return (
+    <a href='https://wa.me/918764673892' target="_blank"
+        rel="noopener noreferrer">
+    
     <div className="w-full max-w-3xl mx-auto px-4 py-8" id='faq'>
       <h2 className="text-3xl font-bold text-center mb-6 text-indigo-700">Frequently Asked Questions</h2>
       <div className="flex flex-col gap-4">
@@ -32,6 +35,7 @@ const FAQAccordion = () => {
         ))}
       </div>
     </div>
+    </a>
   );
 };
 
