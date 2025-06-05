@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem; /* optional: adjust if you have fixed headers */
+  }
+
+  /* Optional: make scroll slower (only works for JS-based scroll, not native smooth scroll) */
+  html {
+    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
+    scroll-padding: 100px;
+  }
+
+  /* If you want to animate anchor scrolling with a clearly slow duration, use JS for precision: */
+}
